@@ -1,0 +1,22 @@
+O que o projeto precisa fazer
+- Listar as informações;
+- Pegar as informações de uma anotação;
+- Inserir uma anotação nova;
+- Atualizar uma anotação;
+- Deletar uma anotação.
+
+Qual a estrutura de dados?
+- Local para armazenar as anotações;
+-- Id
+-- Title
+-- Body
+
+Quais os endpoints (URL)?
+- (Método) /url (parâmetros)
+- (GET) /api/notes - /api/getAll.php;
+- (GET) /api/note/123 - /api/get.php?id=123;
+- (POST) /api/note - /api/insert.php (title, body);
+- (PUT) /api/note/123 - /api/update.php (id, title, body);
+- (DELETE) /api/note/123 - /api/delete.php (id).
+
+Vamos testar o resttestest.com.
